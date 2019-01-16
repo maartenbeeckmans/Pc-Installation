@@ -1,19 +1,16 @@
-# GNOME installation Arch Linux
+# GNOME install Arch Linux
 
 ## Update all packages
 
 ```bash
     sudo pacman -Syu
-    sudo reboot
 ```
 
 ## Installation
 
 ```bash
-    # install xorg
-    sudo pacman -S xorg xorg-server
-    # install gnome DE
-    sudo pacman -S gnome
+    sudo pacman -S xorg xorg-server     # install xorg
+    sudo pacman -S gnome                # install gnome DE
 ```
 
 ## Enable gdm service
@@ -34,18 +31,13 @@
 For example, if you want to install LXDM for GNOME DE, run:
 
 ```bash
-    # Installation
-    sudo pacman -S lxdm
-    # Stop any other running DMs
-    sudo systemctl stop gdm.service
+    sudo pacman -S lxdm                     # Installation
+    sudo systemctl stop gdm.service         # Stop any other running DMs
     sudo systemctl disable gdm.service
-    # Start and enable lxdm service at boot
-    sudo systemctl start lxdm.service
+    sudo systemctl start lxdm.service       # Start and enable lxdm service at boot
     sudo systemctl enable lxdm.service
 ```
 
 ## Reboot system
 
-```bash
-    sudo reboot
-```
+<link rel="stylesheet" href="../style.css">

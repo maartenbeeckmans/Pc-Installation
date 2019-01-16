@@ -1,0 +1,68 @@
+* {
+    font: arial, verdana, sans-serif;
+}
+
+h1 {
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+    color: rgb(68, 114, 196);
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+    background-color:rgb(68, 114, 196);
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+h3 {
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+    background-color: rgb(217, 226, 243);
+    color: black;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+h4 {
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+    border-top: 2px solid rgb(68, 114, 196);
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+h5 {
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+    border-top: 1px dotted rgb(68, 114, 196);
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+h6 {
+    margin: 0.2em;
+    border-bottom: 1px solid rgb(68, 114, 196);
+    padding: 0.2em 0.5em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+
+p {
+    font-size: 1em;
+    font-weight:normal;
+}
+
+code {
+    font: "courrier new", consolas, monospace;
+}

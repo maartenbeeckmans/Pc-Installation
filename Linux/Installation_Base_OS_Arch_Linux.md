@@ -11,14 +11,6 @@
     ping -c5 google.be
 ```
 
-When not using dhcp
-
-```bash
-    ifconfig eno167777736 192.168.x.x netmask 255.255.255.0
-    route add default gw 192.168.1.1
-    echo "nameserver 8.8.8.8" >> /etc/resolv.conf
-```
-
 ## Step 1: partition hard disks
 
 List all hard disks in the machine
@@ -135,6 +127,8 @@ The *fstab (5)* file can be used to define how disk partitions, various other bl
     pacman -Syu
 ```
 
+<div class="page-break-after"></div>
+
 ### User configuration
 
 ```bash
@@ -180,7 +174,4 @@ The *fstab (5)* file can be used to define how disk partitions, various other bl
     ping -c5 google.be
 ```
 
-You can now install user interface
-
-[Official Arch installation guide](https://wiki.archlinux.org/index.php/Installation_guide#Time_zone)
-source: [tecmint](https://www.tecmint.com/arch-linux-installation-and-configuration-guide/)
+<link rel="stylesheet" href="../style.css">
